@@ -1,0 +1,188 @@
+.header {
+    position: relative;
+    display: flex;    
+    background-color: #242222;   
+    color: rgb(238, 124, 124); 
+    height: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    position: -webkit-sticky;    
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header a {
+    text-decoration: none;
+    padding: 35px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.header a:hover {
+    background-color: rgb(190, 4, 4);
+    color: black;
+}
+#logo {
+    height: 70px;
+    width: auto;
+    margin-right: 620px;
+}
+#flag {
+    height: 30px;
+    width: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.footer {
+    background-color: #242222;
+    height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input:focus {
+    background: #eaeaea;
+  }
+input, textarea, select, button {
+    width : 550px;
+    margin: 15px;
+    padding: 12px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+} 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: arial;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 89%;
+    font-size: 18px;
+}  
+.card button:hover {
+    background-color: grey;
+    color: black;
+}
+.category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+h1,h2 {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre {
+    font-size: 40px;
+    font-weight: bold;
+}
+.search {
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;    
+    font-size: 30px;
+}
+.search:hover {
+    background-color: rgb(190, 4, 4);
+    color: black;
+}
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.box {
+    border-radius: 11px;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 146px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box:hover {
+    background-color: grey;
+    color: black;
+}
+#stat {
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
+#map {
+    width: 850px;
+    height: 400px;
+    padding-left: 210px;
+}
+.contact-form {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 350px;
+    transition: all 4s ease-in-out; 
+}
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 15px;
+    color: white;   
+}
+.form-control:focus {
+    background-color: grey;
+    color: black;
+}
+.button:hover {
+    background-color: grey;
+    border: none;
+    border-radius: 7px;   
+    color: black;
+}
+.button {
+    width: 150px;
+    margin-left: 210px;
+    height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-media {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;    
+}
+.sm {
+    color: rgb(190, 4, 4);
+}
+#voiture {
+    height: 300px;
+    width: auto;
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
