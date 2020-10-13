@@ -175,14 +175,19 @@ h1,h2 {
     margin-left: 30px;    
 }
 .sm {
-    color: rgb(190, 4, 4);
+    color: rgb(190, 4, 4);    
 }
 #voiture {
-    height: 300px;
+    height: 400px;
     width: auto;
+    border-radius: 8px;
 }
 body {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*.photoVoiture {
+    height: 600px;
+    width: 300px;
+}*/
